@@ -1,0 +1,77 @@
+@media (max-width: 868px)
+{
+    .second-section
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .third-section
+    {
+        flex-direction: column;
+    }
+    .testimonials
+    {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1rem;
+    }
+    .early-access
+    {
+        width: 30rem;
+        max-width: 85%;
+        padding: 0.7rem;
+    }
+    .input-btn
+    {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    input{
+        width: 50%;
+    }
+    .btn
+    {
+        width: 55%;
+    }
+    .wrapper
+    {
+        flex-direction: column;
+    }
+    .contacts{
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .phone > p{
+        margin: 0;
+    }
+    .email > p{
+        margin: 0;
+    }
+    .header--logo
+    {
+        height: 1.3rem;
+    }
+    .header--text > p{
+        font-size: .85rem;
+    }
+    .wave
+    {
+        background-image: url('./images/bg-curvy-mobile.svg');
+        top: -400px;
+    }
+    .testimonial:hover{
+        transform: translateY(0);
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+    .header--text > p{
+        padding-bottom: 0;
+    }
+}
+@media (max-width:341px)
+{
+    .btn{
+        width: 100%;
+    }
+    input{
+        width: 91%;
+    }
+}
